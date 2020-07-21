@@ -1,0 +1,53 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* for perfectly fitting background image */
+  background-image: url("header.jpg"); 
+  background-repeat:no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.row{
+  /* this is used for placing h3 at the center of the page */
+color: white;
+border-radius: 1em;
+padding: 1em;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+
+}
+h3{
+  margin-bottom: -100%;
+}
+hr {
+  border-color: orangered;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.btn {
+ /* flex-direction: column;
+ justify-content: center; */
+  border-radius: 20px;
+}
+.btn-danger:hover{
+  background-color: blue;
+}
+.buffer {
+  height: 10rem;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
